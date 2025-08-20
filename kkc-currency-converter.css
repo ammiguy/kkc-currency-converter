@@ -1,0 +1,210 @@
+body,a,td,tr,p {
+	font-family: KingthingsFoundationRegular, Times New Roman, Times, Serif;
+	color: black;
+}
+
+table {
+	margin: 0px auto;
+}
+
+.exchangeSheet {
+	background:url(parchment.png);
+	width: 740px;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	position: relative;
+}
+
+.inputText {
+	padding: 0px;
+	margin: 0px;
+	width: 60px;
+}
+
+.inputText input[type=text] {
+	font-family: KomikaTextRegular, "Comic Sans MS", cursive, Sans-Serif;
+	font-size: 18px;
+	width: 64px;
+	line-height: 18px;
+	height: 18px;
+	text-align: center;
+	border: 0;
+	padding: 0px;
+	margin: -2px;
+	background: transparent;
+	color: #620;
+}
+
+.currencySelection input[type=text] {
+	font-family: KomikaTextRegular, "Comic Sans MS", cursive, Sans-Serif;
+	font-size: 18px;
+	width: 100px;
+	height: 20px;
+	line-height: 14px;
+	text-align: right;
+	border: 0;
+	border-bottom: 1px solid black;
+	padding: 0px 3px 0px 0px;
+	margin: -2px;
+	background: transparent;
+	color: #400;
+}
+
+#currencyTable input[type="radio"], input[type="checkbox"] {
+    display:none;
+}
+#currencyTable input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+#currencyTable input[type="radio"]:checked + label span {
+    background:url(check_radio_sheet.png) -19px top no-repeat;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(check_radio_sheet.png) -19px top no-repeat;
+}
+
+.approve {
+	background: url(approvetransaction.png) no-repeat;
+    cursor: pointer;
+    width: 117px;
+    height: 51px;
+    border: none;
+	margin-top: -20px;
+}
+.reset {
+	background: url(canceltransaction.png) no-repeat;
+    cursor: pointer;
+    width: 117px;
+    height: 51px;
+    border: none;
+	margin-top: -20px;
+}
+
+.currencyType {
+	font-family: KingthingsFoundationRegular, Times New Roman, Times, Serif;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.coin {
+	font-family: KingthingsFoundationRegular, Times New Roman, Times, Serif;
+	font-size: 16px;
+	line-height: 14px;
+	text-align: right;
+}
+
+.exchangeTable {
+	margin: 0 auto 0 auto;
+}
+
+.heading {
+	font-family: KingthingsFoundationRegular, Times New Roman, Times, Serif;
+	font-size: 30px;
+	line-height: 32px;
+	text-align: center;
+	margin: 10px auto 0px auto;
+}
+
+div.currencySelection {
+	width: 700px;
+	margin: 10px auto 0px auto;
+}
+
+.selection {
+
+}
+
+#notice {
+	width: 700px;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	font-size: 16px;
+}
+
+#disclaimer {
+	width: 650px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 10px auto 0px auto;
+}
+
+small { font-size: 12px; }
+
+td.currencyType, td.coin, td.inputText {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding:2px;
+}
+
+table.exchangeTable {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}	
+
+table.RateTable {
+	margin: 0 auto 0 auto;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+td.exchange {
+	font-family: KingthingsFoundationRegular, Times New Roman, Times, Serif;
+	font-size: 16px;
+	line-height: 14px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#exchangeRateTablePop {
+	display: none;
+	z-index:3; 
+	font-size: 20px !important;
+	position: absolute;
+	text-align: center; 
+	top: 80px; left: -20px;
+	padding: 30px 40px;
+	width: 620px;
+	height: 700px;
+	background: url(exchangeratesbg.png);
+}
+
+.coinagePop {
+	display: none;
+	z-index:3; 
+	position: absolute;
+	text-align: left; 
+	padding: 10px;
+	top: 170px; left: 60px;
+	width: 506px;
+	box-shadow: 3px 3px 10px #000000;
+	-moz-box-shadow: 3px 3px 10px #000000; /* Old Firefox */
+	background-image: url(parchment.png);
+	background-position:center center;
+}
+
+
+a.blockLink {
+display: block;
+text-decoration: none;	
+}
